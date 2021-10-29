@@ -1,0 +1,15 @@
+{
+    "name": "touchband.touchband.niaproxy",
+    "description": "Use your Miband2/3/4 on Ubuntu Touch",
+    "architecture": "@CLICK_ARCH@",
+    "title": "touchband",
+    "hooks": {
+        "touchband": {
+            "apparmor": "touchband.apparmor",
+            "desktop":  "touchband.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Ivan Samokhin <jrr@mail.ru>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
